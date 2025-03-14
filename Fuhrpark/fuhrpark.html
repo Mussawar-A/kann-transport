@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fuhrpark – KANN Transport</title>
+    <link rel="stylesheet" href="../Styles/kontakt.css">
+    <link rel="stylesheet" href="../Styles/fuhrpark.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../home.html">Startseite</a></li>
+                <li><a href="../Unternehmen/unternehmen.html">Unternehmen</a></li>
+                <li><a href="../Leistungen/leistungen.html">Leistungen</a></li>
+                <li><a href="Fuhrpark/fuhrpark.html">Fuhrpark</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="fleet-detail">
+            <h1>Unser Fuhrpark</h1>
+            <div class="vehicle">
+                <h2>Moderne LKWs</h2>
+                <p>Unsere LKWs sind stets auf dem neuesten Stand der Technik und werden regelmäßig gewartet.</p>
+            </div>
+            <div class="vehicle">
+                <h2>Spezialfahrzeuge</h2>
+                <p>Für besondere Anforderungen bieten wir Spezialfahrzeuge wie Kühltransporter und Schwertransporter.</p>
+            </div>
+        </section>
+        <section id="contact" class="contact-form">
+            <h1>Kontaktieren Sie uns</h1>
+            <p>Wir freuen uns auf Ihre Nachricht. Füllen Sie das Formular aus, und wir werden uns so schnell wie möglich bei Ihnen melden.</p>
+            
+            <form action="https://beispiel.com/kontakt" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-Mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="nachricht">Nachricht:</label>
+                    <textarea id="nachricht" name="nachricht" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="cta-button">Nachricht senden</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 KANN Transport. Alle Rechte vorbehalten.</p>
+        <ul>
+            <li><a href="../Impressum/impressum.html">Impressum</a></li>
+            <li><a href="#">Datenschutz</a></li>
+            <li><a href="#">AGB</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
